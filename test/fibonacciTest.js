@@ -13,4 +13,8 @@ describe('fibonacci(n)', () => {
   it('n = 7の時、13を返すこと', () => {
     assert(fibonacci(2) === 1);
   });
+
+  it.skip('n = 43の時、433494437を返すこと', () => {
+    assert(fibonacci(43) === 433494437);
+  });
 });
